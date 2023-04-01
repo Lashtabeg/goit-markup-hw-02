@@ -18,12 +18,30 @@
 
 }
 
-body {
+.body {
     font-family: var(--primary-text);
     font-size: 16px;
     /* line-height: 1.5; */
     background-color: var(--white);
     color: var(--slate);
+}
+
+.logo {
+    font-family: var(--secondary-text);
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--iris);
+}
+
+.logo-dark {
+    color: var(--navy-blue)
+}
+
+.logo-light {
+    color: var(--cloud)
 }
 
 .list {
