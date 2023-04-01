@@ -120,7 +120,7 @@ a {
 }
 
 .hero-btn:hover,
-.hero-btn:active {
+.hero-btn:focus {
     background-color: var(--ocean);
     cursor: pointer;
 }
@@ -201,7 +201,7 @@ a {
 }
 
 .portf-btn:hover,
-.portf-btn:active {
+.portf-btn:focus {
     background-color: var(--ocean);
     color: var(--white);
     cursor: pointer;
