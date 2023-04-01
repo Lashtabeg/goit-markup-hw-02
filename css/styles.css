@@ -113,6 +113,7 @@ a {
 }
 
 .hero-btn {
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -123,7 +124,8 @@ a {
     background-color: var(--iris);
 }
 
-.hero-btn:hover.hero-btn:active {
+.hero-btn:hover,
+.hero-btn:active {
     color: var(--ocean);
     cursor: pointer;
 }
@@ -155,7 +157,7 @@ a {
 }
 
 .our-team {
-    background-color: var(--cloud);
+    background-color: var(--white);
 }
 
 .our-team-main {
