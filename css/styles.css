@@ -95,11 +95,6 @@ a {
     color: var(--slate);
 }
 
-.address:hover,
-.address:active {
-    color: var(--ocean);
-}
-
 .hero {
     background-color: var(--navy-blue);
 }
@@ -126,7 +121,7 @@ a {
 
 .hero-btn:hover,
 .hero-btn:active {
-    color: var(--ocean);
+    background-color: var(--ocean);
     cursor: pointer;
 }
 
@@ -157,6 +152,10 @@ a {
 }
 
 .our-team {
+    background-color: var(--cloud);
+}
+
+.our-team-item {
     background-color: var(--white);
 }
 
@@ -189,6 +188,7 @@ a {
 }
 
 .portf-btn {
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -200,7 +200,7 @@ a {
     background-color: var(--cloud);
 }
 
-.pprtf-btn:hover,
+.portf-btn:hover,
 .portf-btn:active {
     background-color: var(--ocean);
     color: var(--white);
