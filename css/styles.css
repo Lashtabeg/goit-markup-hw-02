@@ -1,0 +1,10 @@
+:root {
+    --iris: #4D5AE5;
+    --navy-blue: #2E2F42;
+    --slate: #434455;
+    --white: #FFFFFF;
+}
+
+.body {
+    background-color: var(--white);
+}
