@@ -64,3 +64,25 @@ a {
 .nav-site:active {
     color: var(--ocean);
 }
+
+.link {
+    text-decoration: none;
+}
+
+.link:hover,
+.link:focus {
+    color: var(--ocean);
+}
+
+.address {
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--slate);
+}
+
+.address:hover,
+.address:focus {
+    color: var(--ocean);
+}
